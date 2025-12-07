@@ -1,8 +1,6 @@
 # ✈️ AeroSpace Airlines Dashboard
 **Advanced Tableau Project | Multi-Page Analytical Suite**
 
----
-
 ## 📌 Overview
 This project is an end-to-end Airline Analytics solution built in Tableau, designed to help business stakeholders make data-driven decisions across operations, performance, geography, and time.
 
@@ -12,31 +10,29 @@ The dashboard highlights passenger trends, operational performance, airport acti
 
 ## ⭐ STAR Method Breakdown
 
-## ⭐ S — Situation  
+### **S — Situation** 
 Airline operational and passenger data was fragmented, making it difficult for stakeholders to understand route performance, airport activity, seasonal trends, and overall operational efficiency.
 
-## 🎯 T — Task  
+### **T — Task**
 Build a unified, interactive Tableau analytics suite that delivers:
 - Executive-level KPIs  
 - Route, airport, performance, and time-series analysis  
 - Global filtering across dashboards  
 - Professional UI, smooth interaction, and clear data storytelling  
 
-## 🛠️ A — Action  
+### **A — Action**
 Created a **4-dashboard analytical system** using advanced Tableau features, custom calculations, and dynamic navigation.
 
-## 🚀 R — Result  
+### **R — Result**
 Delivered an **executive-ready analytics suite** that enables:  
 - Faster strategic decisions  
 - Deeper insights into routes, airports, geography & performance  
 - Clear seasonal and operational trends  
 - End-to-end exploration with global filters  
 
-This project demonstrates strong skills in **data modelling, dashboard engineering, UX design, and analytics storytelling**.
-
 ---
 
-## 🧰 Tools & Tech Stack
+## 📊 Tools & Tech Stack
 - Tableau Desktop 2023+
 - Excel/CSV Data Source
 - Tableau Data Model & Custom Calculations
