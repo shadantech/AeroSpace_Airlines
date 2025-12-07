@@ -10,117 +10,77 @@ The dashboard highlights passenger trends, operational performance, airport acti
 
 ---
 
-## 📂 Project Structure
-The analytics suite contains **4 dashboards**:
+## ⭐ STAR Method Breakdown
+
+## ⭐ S — Situation  
+Airline operational and passenger data was fragmented, making it difficult for stakeholders to understand route performance, airport activity, seasonal trends, and overall operational efficiency.
+
+---
+
+## 🎯 T — Task  
+Build a unified, interactive Tableau analytics suite that delivers:
+- Executive-level KPIs  
+- Route, airport, performance, and time-series analysis  
+- Global filtering across dashboards  
+- Professional UI, smooth interaction, and clear data storytelling  
+
+---
+
+## 🛠️ A — Action  
+Created a **4-dashboard analytical system** using advanced Tableau features, custom calculations, and dynamic navigation.
+
+---
+
+## 🚀 R — Result  
+Delivered an **executive-ready analytics suite** that enables:  
+- Faster strategic decisions  
+- Deeper insights into routes, airports, geography & performance  
+- Clear seasonal and operational trends  
+- End-to-end exploration with global filters  
+
+This project demonstrates strong skills in **data modelling, dashboard engineering, UX design, and analytics storytelling**.
+
+---
+
+## 🧰 Tools & Tech Stack
+- Tableau Desktop 2023+
+- Excel/CSV Data Source
+- Tableau Data Model & Custom Calculations
+
+---
+
+## 🔗 Live Preview
+([Live Dashboard](https://public.tableau.com/app/profile/shadan.sarfaraz/viz/AeroSpaceAirlines/Overview?publish=yes))
+
+---
+
+## 📊 Dashboards
 
 ### 1️⃣ Overview Dashboard
 Provides a high-level operational snapshot.
-
-**KPIs**
-- **Total Passengers**
-- **Total Flights**
-- **Total Revenue**
-- **Total Freight (lbs)**
-
-Each KPI includes:
-- **% Change vs Last Period** *(Calculated using LOOKUP with -1 offset to compare against the previous time period)*
-
-**Key Visuals**
-- Monthly Passenger Trend (Line Chart)
-- Monthly Flights Performed (Bar Chart)
-- Passengers by Airline (Bar Chart)
-- Flights by Distance Range (Donut Chart)
-- Average Load Factor Trend (Area Chart)
-
-### Dashboard Preview  
+ 
 ![Overview Dashboard Preview](Overview_Dashboard.png)
-
----
 
 ### 2️⃣ Performance Analysis Dashboard
 Focuses on operational efficiency and service quality.
 
-**KPIs**
-- **Average Load Factor**
-- **On-Time Performance** *(Based on Departures Scheduled vs Performed)*
-- **Seat Utilization**
-- **Flight Completion Rate**
-
-**Key Visuals**
-- Revenue, Cost & Profit Analysis  
-  - Revenue & Cost → Stacked Bar Chart  
-  - Profit → Line Chart
-- Load Factor by Distance Range (Lollipop Chart)
-- Passengers by Distance Range (Line Chart)
-- Airline Performance Comparison (Table)
-
-### Dashboard Preview  
 ![Performance Analysis Dashboard Preview](Performance_Analytics.png)
-
----
 
 ### 3️⃣ Geographical Analytics Dashboard
 Highlights airport-level and route-level activity.
-
-**KPIs**
-- Total Origin Airports
-- Total Destination Airports
-- Total Routes
-- Average Route Distance
-
-The dashboard uses a **button-based dynamic navigation system** with 3 sections:
-
-#### 🛫 Airports Section
-- Top 10 Airports by Passenger Volume (Bar Chart)
-- Airport Traffic Visualization (Bubble Chart)
-- Airport Activity Details (Table)
-
-#### 🗺️ States Section
-- Passenger Volume by State (Bar Chart)
-- State Traffic Distribution (Top 3) – (Pie Chart) *(using Ramp-to-Ramp Time instead of Passengers)*
-
-#### 🔁 Top Routes Section
-- Top 15 Routes by Passenger Volume (Bar Chart)
-- Route Performance Details (Table)
-
-### Dashboard Preview  
+ 
 ![Geographical Analytics Dashboard Preview](Geographic_Analysis.png)
-
----
 
 ### 4️⃣ Time Series Dashboard
 Designed for temporal analysis and forecasting.
-
-**KPIs**
-- Average Flight Distance
-- Month-over-Month Growth    
-- Average Monthly Flights
-- Peak Month  
-
-**Key Visuals**
-- Multi-Metric Monthly Analysis (Combination Chart)
-  - Load Factor & Passengers → Line Chart Chart  
-  - Flights → Bar Chart
-- Passenger Traffic Trend (Area Chart)
-- Flights by Day of Week (Bar Chart)
-- Quarterly Performance Summary (Table)
-
-### Dashboard Preview  
+ 
 ![Time Series Dashboard Preview](Time_Series.png)
 
 ---
 
-## 🎛️ Global Filters (Applied to All Dashboards)
-Each dashboard includes a set of **global filters** that control every visual on the page:
-
-- **Year**
-- **Quarter**
-- **Month**
-- **WeekDay**
-- **Flight Types**
-- **Airline**  
-- **Airport**
-- **Distance Range**
+## 🔧 Global Filters  
+Applied to all dashboards:  
+**Year, Quarter, Month, Weekday, Flight Type, Airline, Airport, Distance Range**
 
 These filters are configured as **Apply to Worksheets → All Using This Data Source**, ensuring that:
 ✔ All charts update dynamically  
@@ -153,29 +113,6 @@ These filters are configured as **Apply to Worksheets → All Using This Data So
 
 ---
 
-## 🔗 Live Preview
-([Live Dashboard](https://public.tableau.com/app/profile/shadan.sarfaraz/viz/AeroSpaceAirlines/Overview?publish=yes))
-
----
-
-## 🧰 Tools & Tech Stack
-- Tableau Desktop 2023+
-- Excel/CSV Data Source
-- Tableau Data Model & Custom Calculations
-
----
-
-## 🚀 Key Insights
-The dashboard enables analysis of:
-- Passenger trends
-- Airline performance
-- Route profitability
-- Airport activity
-- Geographic distribution
-- Time-based growth patterns
-
----
-
 ## 🏁 Conclusion
 This dashboard transforms complex airline data into clear, actionable insights through advanced KPIs, interactive filters, and multi-page analytics. It enables quick understanding of performance, trends, routes, and geographic patterns, helping stakeholders make smarter, data-driven decisions.
 
@@ -184,6 +121,7 @@ This dashboard transforms complex airline data into clear, actionable insights t
 ## 👤 Author
 **Shadan Tech**   
 _Data Analyst_
+
 🔗 [LinkedIn Profile](http://www.linkedin.com/in/shadantech)  
 🔗 [Tableau Public Profile](https://public.tableau.com/app/profile/shadan.sarfaraz/vizzes)
 🔗 [Newsletter](https://shadantech.substack.com/)
