@@ -32,18 +32,6 @@ Delivered an **executive-ready analytics suite** that enables:
 
 ---
 
-## 📊 Tools & Tech Stack
-- Tableau Desktop 2023+
-- Excel/CSV Data Source
-- Tableau Data Model & Custom Calculations
-
----
-
-## 🔗 Live Preview
-([Live Dashboard](https://public.tableau.com/app/profile/shadan.sarfaraz/viz/AeroSpaceAirlines/Overview?publish=yes))
-
----
-
 ## 📊 Dashboards
 
 ### 1️⃣ Overview Dashboard
@@ -68,17 +56,10 @@ Designed for temporal analysis and forecasting.
 
 ---
 
-## 🔧 Global Filters  
-Applied to all dashboards:  
-**Year, Quarter, Month, Weekday, Flight Type, Airline, Airport, Distance Range**
+## 🔗 Live Preview
+([Live Dashboard](https://public.tableau.com/app/profile/shadan.sarfaraz/viz/AeroSpaceAirlines/Overview?publish=yes))
 
-These filters are configured as **Apply to Worksheets → All Using This Data Source**, ensuring that:
-✔ All charts update dynamically  
-✔ KPIs recalculate instantly  
-✔ Cross-dashboard consistency is maintained  
-✔ Users can slice & explore data at any level  
-
---- 
+---
 
 ## 🧮 Key Calculated Fields
 - % Change vs Last Period
@@ -92,7 +73,7 @@ These filters are configured as **Apply to Worksheets → All Using This Data So
 
 ---
 
-## 🎨 Features & Techniques Used
+## 🎨 Techniques & Features
 - Global filters applied to all visuals
 - Multi-dashboard navigation buttons
 - Parameter controls for revenue & cost modeling
@@ -100,6 +81,13 @@ These filters are configured as **Apply to Worksheets → All Using This Data So
 - Table calculations (LOOKUP, WINDOW_MAX, RUNNING_SUM)
 - YoY & MoM analytics
 - Dual-axis lines
+
+---
+
+## 📊 Tech Stack
+- Tableau Desktop 2023+
+- Excel/CSV Data Source
+- Tableau Data Model & Custom Calculations
 
 ---
 
